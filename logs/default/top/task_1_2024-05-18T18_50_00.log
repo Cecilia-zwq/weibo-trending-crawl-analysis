@@ -1,0 +1,75 @@
+2024-05-18 18:50:03 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: weibo)
+2024-05-18 18:50:03 [scrapy.utils.log] INFO: Versions: lxml 4.9.1.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.0, Twisted 22.2.0, Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1t  7 Feb 2023), cryptography 37.0.1, Platform Windows-10-10.0.19045-SP0
+2024-05-18 18:50:03 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-05-18 18:50:03 [scrapy.extensions.telnet] INFO: Telnet Password: 4e936a4c796ab58f
+2024-05-18 18:50:04 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-05-18 18:50:04 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'weibo',
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 16,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs\\default\\top\\task_1_2024-05-18T18_50_00.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'weibo.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['weibo.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 '
+               'Edg/124.0.0.0'}
+2024-05-18 18:50:04 [WDM] INFO: ====== WebDriver manager ======
+2024-05-18 18:50:05 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:05 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:06 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-18 18:50:07 [WDM] INFO: ====== WebDriver manager ======
+2024-05-18 18:50:08 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:09 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:10 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-18 18:50:11 [WDM] INFO: ====== WebDriver manager ======
+2024-05-18 18:50:11 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:12 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:13 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-18 18:50:14 [WDM] INFO: ====== WebDriver manager ======
+2024-05-18 18:50:15 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:16 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:17 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-18 18:50:18 [WDM] INFO: ====== WebDriver manager ======
+2024-05-18 18:50:19 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:20 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:21 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-18 18:50:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'random_useragent.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-05-18 18:50:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'weibo.middlewares.WeiboSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-05-18 18:50:22 [scrapy.middleware] INFO: Enabled item pipelines:
+['weibo.pipelines.WeiboPipeline']
+2024-05-18 18:50:22 [scrapy.core.engine] INFO: Spider opened
+2024-05-18 18:50:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-05-18 18:50:22 [top] INFO: Spider opened: top
+2024-05-18 18:50:22 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6028
+2024-05-18 18:50:30 [WDM] INFO: ====== WebDriver manager ======
+2024-05-18 18:50:31 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:32 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-18 18:50:33 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\124.0.6367.207\chromedriver-win32/chromedriver.exe] found in cache

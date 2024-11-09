@@ -1,0 +1,165 @@
+2024-05-30 11:36:17 [scrapy.utils.log] INFO: Scrapy 2.11.1 started (bot: weibo)
+2024-05-30 11:36:17 [scrapy.utils.log] INFO: Versions: lxml 4.9.1.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.0, Twisted 22.2.0, Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1t  7 Feb 2023), cryptography 37.0.1, Platform Windows-10-10.0.19045-SP0
+2024-05-30 11:36:17 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-05-30 11:36:17 [scrapy.extensions.telnet] INFO: Telnet Password: f720069c009c5047
+2024-05-30 11:36:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-05-30 11:36:17 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'weibo',
+ 'CONCURRENT_REQUESTS': 32,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 16,
+ 'CONCURRENT_REQUESTS_PER_IP': 16,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'logs\\default\\top\\task_1_2024-05-30T11_36_09.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'weibo.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['weibo.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 '
+               'Edg/124.0.0.0'}
+2024-05-30 11:36:18 [WDM] INFO: ====== WebDriver manager ======
+2024-05-30 11:36:19 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:19 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:20 [WDM] INFO: There is no [win64] chromedriver "125.0.6422.78" for browser google-chrome "125.0.6422" in cache
+2024-05-30 11:36:20 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:20 [WDM] INFO: WebDriver version 125.0.6422.78 selected
+2024-05-30 11:36:20 [WDM] INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.78/win32/chromedriver-win32.zip
+2024-05-30 11:36:20 [WDM] INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.78/win32/chromedriver-win32.zip
+2024-05-30 11:36:21 [WDM] INFO: Driver downloading response is 200
+2024-05-30 11:36:22 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:23 [WDM] INFO: Driver has been saved in cache [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\125.0.6422.78]
+2024-05-30 11:36:25 [WDM] INFO: ====== WebDriver manager ======
+2024-05-30 11:36:26 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:26 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:26 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\125.0.6422.78\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-30 11:36:27 [WDM] INFO: ====== WebDriver manager ======
+2024-05-30 11:36:29 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:30 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:30 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\125.0.6422.78\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-30 11:36:31 [WDM] INFO: ====== WebDriver manager ======
+2024-05-30 11:36:33 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:33 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:34 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\125.0.6422.78\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-30 11:36:35 [WDM] INFO: ====== WebDriver manager ======
+2024-05-30 11:36:36 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:36 [WDM] INFO: Get LATEST chromedriver version for google-chrome
+2024-05-30 11:36:37 [WDM] INFO: Driver [C:\Users\Cecilia\.wdm\drivers\chromedriver\win64\125.0.6422.78\chromedriver-win32/chromedriver.exe] found in cache
+2024-05-30 11:36:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'random_useragent.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy_selenium.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-05-30 11:36:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'weibo.middlewares.WeiboSpiderMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-05-30 11:36:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['weibo.pipelines.WeiboPipeline']
+2024-05-30 11:36:38 [scrapy.core.engine] INFO: Spider opened
+2024-05-30 11:36:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-05-30 11:36:38 [top] INFO: Spider opened: top
+2024-05-30 11:36:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-05-30 11:36:40 [top] INFO: 获取到热搜表，取前15位
+2024-05-30 11:36:42 [top] INFO: yield request for 考完试故意把分数算得很低
+2024-05-30 11:36:48 [top] INFO: yield request for 英国议会宣布正式解散
+2024-05-30 11:36:54 [top] INFO: yield request for 今天发条微博致敬科技工作者
+2024-05-30 11:37:00 [top] INFO: yield request for 星巴克也急了
+2024-05-30 11:37:05 [top] INFO: parse_ request for 考完试故意把分数算得很低
+2024-05-30 11:37:05 [top] WARNING: 考完试故意把分数算得很低: 没有话题导语
+2024-05-30 11:37:05 [top] INFO: finished parsing 考完试故意把分数算得很低, remaining 14
+2024-05-30 11:37:05 [top] INFO: 插入新的热搜条目: 考完试故意把分数算得很低
+2024-05-30 11:37:06 [top] INFO: yield request for 希尔顿一会员夜不归宿被扣3000元
+2024-05-30 11:37:11 [top] INFO: parse_ request for 英国议会宣布正式解散
+2024-05-30 11:37:11 [top] INFO: finished parsing 英国议会宣布正式解散, remaining 13
+2024-05-30 11:37:11 [top] INFO: 插入新的热搜条目: 英国议会宣布正式解散
+2024-05-30 11:37:11 [top] INFO: yield request for 快乐老友记
+2024-05-30 11:37:16 [top] INFO: parse_ request for 今天发条微博致敬科技工作者
+2024-05-30 11:37:17 [top] INFO: finished parsing 今天发条微博致敬科技工作者, remaining 12
+2024-05-30 11:37:17 [top] INFO: 插入新的热搜条目: 今天发条微博致敬科技工作者
+2024-05-30 11:37:17 [top] INFO: yield request for 伊利牛奶
+2024-05-30 11:37:22 [top] INFO: parse_ request for 星巴克也急了
+2024-05-30 11:37:22 [top] INFO: finished parsing 星巴克也急了, remaining 11
+2024-05-30 11:37:22 [top] INFO: 插入新的热搜条目: 星巴克也急了
+2024-05-30 11:37:23 [top] INFO: yield request for 孩子为啥养臭水
+2024-05-30 11:37:28 [top] INFO: parse_ request for 希尔顿一会员夜不归宿被扣3000元
+2024-05-30 11:37:28 [top] INFO: finished parsing 希尔顿一会员夜不归宿被扣3000元, remaining 10
+2024-05-30 11:37:28 [top] INFO: 插入新的热搜条目: 希尔顿一会员夜不归宿被扣3000元
+2024-05-30 11:37:29 [top] INFO: yield request for 范闲 奶奶的梦中情孙
+2024-05-30 11:37:34 [top] INFO: parse_ request for 快乐老友记
+2024-05-30 11:37:34 [top] WARNING: 快乐老友记: 没有话题导语
+2024-05-30 11:37:34 [top] INFO: finished parsing 快乐老友记, remaining 9
+2024-05-30 11:37:34 [top] INFO: 插入新的热搜条目: 快乐老友记
+2024-05-30 11:37:35 [top] INFO: yield request for 高三老师在教室门口设答疑桌
+2024-05-30 11:37:40 [top] INFO: parse_ request for 伊利牛奶
+2024-05-30 11:37:40 [top] INFO: finished parsing 伊利牛奶, remaining 8
+2024-05-30 11:37:40 [top] INFO: 插入新的热搜条目: 伊利牛奶
+2024-05-30 11:37:40 [scrapy.extensions.logstats] INFO: Crawled 12 pages (at 12 pages/min), scraped 7 items (at 7 items/min)
+2024-05-30 11:37:40 [top] INFO: yield request for 新生男婴被父母以5万卖掉
+2024-05-30 11:37:45 [top] INFO: parse_ request for 孩子为啥养臭水
+2024-05-30 11:37:45 [top] WARNING: 孩子为啥养臭水: 没有话题导语
+2024-05-30 11:37:46 [top] INFO: finished parsing 孩子为啥养臭水, remaining 7
+2024-05-30 11:37:46 [top] INFO: 插入新的热搜条目: 孩子为啥养臭水
+2024-05-30 11:37:46 [top] INFO: yield request for ive
+2024-05-30 11:37:51 [top] INFO: parse_ request for 范闲 奶奶的梦中情孙
+2024-05-30 11:37:51 [top] WARNING: 范闲 奶奶的梦中情孙: 没有话题导语
+2024-05-30 11:37:52 [top] INFO: finished parsing 范闲 奶奶的梦中情孙, remaining 6
+2024-05-30 11:37:52 [top] INFO: 插入新的热搜条目: 范闲 奶奶的梦中情孙
+2024-05-30 11:37:52 [top] INFO: yield request for 境外资本大举买入中国股票ETF
+2024-05-30 11:37:57 [top] INFO: parse_ request for 高三老师在教室门口设答疑桌
+2024-05-30 11:37:57 [top] INFO: finished parsing 高三老师在教室门口设答疑桌, remaining 5
+2024-05-30 11:37:57 [top] INFO: 插入新的热搜条目: 高三老师在教室门口设答疑桌
+2024-05-30 11:37:58 [top] INFO: yield request for JYP承认NMIXX音响事故为事前安排
+2024-05-30 11:38:03 [top] INFO: parse_ request for 新生男婴被父母以5万卖掉
+2024-05-30 11:38:03 [top] INFO: finished parsing 新生男婴被父母以5万卖掉, remaining 4
+2024-05-30 11:38:03 [top] INFO: 插入新的热搜条目: 新生男婴被父母以5万卖掉
+2024-05-30 11:38:04 [top] INFO: yield request for kep1er确认七人续约
+2024-05-30 11:38:09 [top] INFO: parse_ request for ive
+2024-05-30 11:38:09 [top] WARNING: ive: 没有话题导语
+2024-05-30 11:38:09 [top] INFO: finished parsing ive, remaining 3
+2024-05-30 11:38:09 [top] INFO: 插入新的热搜条目: ive
+2024-05-30 11:38:09 [top] INFO: parse_ request for 境外资本大举买入中国股票ETF
+2024-05-30 11:38:10 [top] INFO: finished parsing 境外资本大举买入中国股票ETF, remaining 2
+2024-05-30 11:38:10 [top] INFO: 插入新的热搜条目: 境外资本大举买入中国股票ETF
+2024-05-30 11:38:10 [top] INFO: parse_ request for JYP承认NMIXX音响事故为事前安排
+2024-05-30 11:38:10 [top] INFO: finished parsing JYP承认NMIXX音响事故为事前安排, remaining 1
+2024-05-30 11:38:10 [top] INFO: 插入新的热搜条目: JYP承认NMIXX音响事故为事前安排
+2024-05-30 11:38:10 [top] INFO: parse_ request for kep1er确认七人续约
+2024-05-30 11:38:11 [top] INFO: finished parsing kep1er确认七人续约, remaining 0
+2024-05-30 11:38:11 [top] INFO: 插入新的热搜条目: kep1er确认七人续约
+2024-05-30 11:38:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-05-30 11:38:11 [top] INFO: 数据库已关闭
+2024-05-30 11:38:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/response_bytes': 113283,
+ 'downloader/response_count': 16,
+ 'downloader/response_status_count/200': 16,
+ 'elapsed_time_seconds': 92.28123,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 5, 30, 3, 38, 11, 144725, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 15,
+ 'log_count/INFO': 101,
+ 'log_count/WARNING': 5,
+ 'request_depth_max': 1,
+ 'response_received_count': 16,
+ 'scheduler/dequeued': 16,
+ 'scheduler/dequeued/memory': 16,
+ 'scheduler/enqueued': 16,
+ 'scheduler/enqueued/memory': 16,
+ 'start_time': datetime.datetime(2024, 5, 30, 3, 36, 38, 863495, tzinfo=datetime.timezone.utc)}
+2024-05-30 11:38:42 [scrapy.core.engine] INFO: Spider closed (finished)
